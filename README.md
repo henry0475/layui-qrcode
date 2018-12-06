@@ -2,9 +2,9 @@
 
 The LayUI plugin of layui.qrcode.js is based on the project of <a href='http://jeromeetienne.github.com/jquery-qrcode'>jquery.qrcode.js</a>.
 
-It just changed a little bit to be suitable for generating QR codes in webpages which build on the framework of LayUI, especially for **LayUIAdmin**.
+It just changed a little bit to be suitable for generating QR codes in webpages which are built on the framework of LayUI, especially for **LayUIAdmin**.
 
-It contains all features from the original project of "jquery-qrcode".
+It contains all features from the original project of *jquery-qrcode*
 
 ## How to Use It
 
