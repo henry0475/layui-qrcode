@@ -4,6 +4,8 @@ The LayUI plugin of layui.qrcode.js is based on the project of <a href='http://j
 
 It just changed a little bit to be suitable for generating QR codes in webpages which are built on the framework of LayUI, especially for **LayUIAdmin**.
 
+*The demo and examples are based on **LayUIAdmin**.*
+
 It contains all features from the original project of *jquery-qrcode*
 
 ## How to Use It
@@ -20,8 +22,9 @@ For now, you should include the module of *layui.qrcode* and generate a code in 
     layui.config({
             base: './layuiadmin/'
         }).extend({
+            index: './lib/index',
             qrcode: 'layui.qrcode.min'
-        }).use(['qrcode'], function(){
+        }).use(['index', 'qrcode'], function(){
             var $ = layui.$;
     
             // Generate a QR code in a DIV containner which ID is "container".
